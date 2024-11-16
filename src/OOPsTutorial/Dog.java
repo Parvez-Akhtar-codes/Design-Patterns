@@ -8,4 +8,12 @@ public class Dog extends Animal {
         setSound("Bark");
 
     }
+
+    private void beprivate(){
+        System.out.println("Inside a private method");
+    }
+
+    public void accessor(){
+        beprivate();
+    }
 }
